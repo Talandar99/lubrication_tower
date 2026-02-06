@@ -43,10 +43,10 @@ data:extend({
 		icon = "__lubrication_tower__/graphics/lubrication_tower_icon.png",
 		subgroup = "module",
 		color_hint = { text = "2" },
-		order = "ab[beacon]",
-		weight = 40 * kg,
+		order = "a[beeacon]",
+		weight = 100 * kg,
 		place_result = "lubrication-tower",
-		stack_size = 50,
+		stack_size = 10,
 	},
 })
 data.raw["fluid"]["lubricant"].fuel_value = "0.01MJ"
@@ -122,7 +122,7 @@ data:extend({
 		},
 		prerequisites = { "lubricant", "effect-transmission" },
 		unit = {
-			count = 200,
+			count = 150,
 			ingredients = {
 				{ "automation-science-pack", 1 },
 				{ "logistic-science-pack", 1 },
