@@ -12,7 +12,7 @@ return {
 	-- light = { shift = {0, 0}, color = {1, 1, 1}, intensity = 1, size = 3 },
 	animation_list = {
 		{
-			render_layer = "floor-mechanics",
+			render_layer = "object",
 			always_draw = true,
 			animation = {
 				layers = {

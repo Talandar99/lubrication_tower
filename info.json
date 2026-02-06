@@ -4,8 +4,9 @@
     "title": "Lubrication Tower",
     "author": "Talandar",
     "dependencies": [
-        "base >= 2.0"
+        "base >= 2.0",
+        "~ zzz-nonstandard-beacons"
     ],
-    "description": "Beacon powered by lubricant",
+    "description": "New type of beacon that uses lubricant as its power source",
     "factorio_version": "2.0"
 }
