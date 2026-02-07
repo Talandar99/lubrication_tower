@@ -116,7 +116,6 @@ data:extend({
 		name = "lubrication-tower",
 		icon_size = 200,
 		icon = "__lubrication_tower__/graphics/lubrication_tower.png",
-		essential = true,
 		effects = {
 			{ type = "unlock-recipe", recipe = "lubrication-tower" },
 		},
