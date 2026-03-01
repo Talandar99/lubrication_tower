@@ -1,6 +1,8 @@
 ---------------------------------------------------------------------------------------------------
 Version: 0.2.2
 Date: 2026-02-28
+  Changes:
+    - updated german translation with changes made by biber-foss
   Balancing:
     - replaced storage tank with 10 engine units in recipe
 ---------------------------------------------------------------------------------------------------
