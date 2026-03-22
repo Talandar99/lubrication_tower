@@ -49,7 +49,6 @@ data:extend({
 		stack_size = 10,
 	},
 })
-data.raw["fluid"]["lubricant"].fuel_value = "0.01MJ"
 data:extend({
 	{
 		name = "lubrication-tower",
@@ -63,7 +62,7 @@ data:extend({
 		allowed_effects = { "consumption", "speed", "pollution" },
 		graphics_set = require("beacon-animations"),
 		max_health = 300,
-		energy_usage = "40kW",
+		energy_usage = "400kW",
 		profile = {
 			1,
 			0.7071,

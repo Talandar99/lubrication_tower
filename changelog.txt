@@ -1,4 +1,11 @@
 ---------------------------------------------------------------------------------------------------
+Version: 0.3.0
+Date: 2026-03-22
+  Changes:
+    - incearsed power drain to match new fuel value of lube, this is needed for making it 
+      easier to integrate hydraulic machines (including beacons) with diesel machines
+    - added diesel engine as dependency
+---------------------------------------------------------------------------------------------------
 Version: 0.2.3
 Date: 2026-02-28
   Changes:
