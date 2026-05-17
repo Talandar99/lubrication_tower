@@ -61,6 +61,7 @@ data:extend({
 		selection_box = { { -1.5, -1.5 }, { 1.5, 1.5 } },
 		allowed_effects = { "consumption", "speed", "pollution" },
 		graphics_set = require("beacon-animations"),
+		fast_replaceable_group = "beacon",
 		max_health = 300,
 		energy_usage = "400kW",
 		profile = {
